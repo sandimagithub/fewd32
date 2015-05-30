@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  color: gray;
+  font-weight: 300;
+}
+
+/* Nav Header */
+#nav-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 47px;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 900;
+}
+
+#nav-header > span {
+  font-family: sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 14px 10px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
+#nav-header a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-header a.active {
+  font-weight: bold;
+}
+
+/* Hero poster */
+#hero {
+  background-image: url(../images/300-hero.jpg);
+  height: 188px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+/* Text narrative */
+.narrative {
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+/* YouTube player iFrame */
+#ytplayer {
+  margin-top: 25px;
+  width: 100%;
+  height: 210px;
+}
+
+/* Horizontal image gallery */
+.gallery {
+  max-width: 1140px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.gallery {
+  padding: 0;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gallery img {
+  width: 90%;
+}
+
+.gallery::-webkit-scrollbar { 
+  display: none; 
+}
+
+
