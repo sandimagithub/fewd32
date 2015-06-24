@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nick's Notes</title>
+  </head>
+  <body>
+    <h1>Week 2</h1>
+      <h2>Intro</h2>
+        <ul>
+          <li>HTML are the "nouns" of a website. They give structure to your pages.</li>
+          <li>CSS are the "adjectives" that give your site more descritpion.</li>
+          <li>JavaScript are the "verbs" that brings your website to life and makes them more interactive.</li>
+          <li>A Common convention is to put community links first, then your links. All of these are placed in the head.</li>
+        </ul>
+      <h2>Structure</h2>
+        <ul>
+          <h3>Client-Server Architecture</h3>
+            <li>Cloud: Serves up content remotely to all other client devices 9smart phones, laptops, etc).</li>
+            <li>Everything gets transfered in request response cycles: Your device asks the server for content, and the server responds back with your material. Your device then builds a local representation of what you asked for.</li>
+            <li>Ever wonder how you get thumbnail previews? Fetch thumbnails help you see content to reduce the number of requests.</li>
+          <h3>The Backend</h3>
+            <li>Dev-speak for all the stuff the user doesn't see. Its all about querying and organizing data, then sending that data to the front-end for everyone's viewing pleasure.</li>
+        </ul>
+      <h2>The DOM</h2>
+        <ul>
+          <li>Internally built tree-like representation of your HTML files in the browser</li>
+          <li>Lives in your browser's memory.</li>
+          <li>You can manipulate the DOM, mostly with JavaScript.</li>
+          <li>Use the Browser Developer Tools to help manipulate the DOM (hotkey: Ctrl + Opt + I)</li>
+        </ul>
+      <h2>HTML</h2>
+        <ul>
+          <h3>Elements</h3>
+            <li>Tags or "pieces" of HTML that have their own properites and attributes(e.g. div, video, audio, p, etc)</li>
+            <li>Used to lay out information visually in the browser</li>
+          <h3>The Box Model</h3>
+            <li>Structure of HTML elements</li>
+            <li>Margin, Border, Padding, Width, Height, Content</li>
+            <li>Can manipulate each of these with code (mostly with CSS and JavaScript).</li>
+        </ul>
+      <h2>CSS</h2>
+        <ul>
+          <h3>CSS Selectors -- ID and Class</h3>
+            <li>IDs and Classes are "hooks" for styling and manipulating HTML elements with CSS and JavaScript.</li>
+            <li>An ID is a unique hook...there is only one of each ID (e.g.one dog named sparky).</li>
+            <li>a Class is a common hook...there's a group of these (e.g. dogs).</li>
+            <li>Make your ID and Class names MEANINGFUL to you or anyone else working with your code so it makes sense to them.</li>
+            <li>Using IDs and Classes is all about matching the right "adjectives" and "verbs" with the right "nouns".</li>
+            <li>You can target HTML elements (div, p, span, etc) to style with CSS or manipulate with JavaScript</li>
+          <h3>Color</h3>
+            <li>Use can use keywords like "gray" or "teal" to add color.</li>
+            <li>You can also use hexadecimal values (e.g. #33F203 is bright green). 
+                Check this out: <a target="_blank"href="http://www.color-hex.com/">Hex Color Picker</a></li>
+            <li>The last way to use color is with RGBA values (e.g. rgba(0,0,0,1) = black). RGB are the amount of Red, Green, and Blue in the color, and A is alpha which is the transparency.<br>
+            Look at this: <a target="_blank" href="http://www.css3maker.com/css-3-rgba.html">RGBA picker</a>
+            </li>
+          <h3>Display Properties -- Inline vs Block</h3>
+            <li>Different HTML elements start with different CSS properties.</li>
+            <li>Inline is "in-text, read left to right". Elements with in-line only take up the space they need.</li>
+            <li>Elements with the Block property  wrap to the next line by forcing a break before and after the element</li>
+          <h3>Display Properites -- Static vs Absolute</h3>
+            <li>Static means the browser "makes room" for elements wtih this property in flow. This is the default for most elements.</li>
+            <li>The absolute property means the browser doesn't make room for the element, so other elements aren't aware of it. Its "ripped" out of the DOM.</li>
+        </ul>
+      <h2>Patterns</h2>
+        <ul>
+          <li><a target="_blank" href="http://css3.bradshawenterprises.com/">Common Layouts</a></li>
+          <li>Nav Headers are usually placed at the top to help users navigate your site, and have the absolute property.</li>
+          <li>Hero Images have position absolut, background-image in a div to display large images.</li>
+          <li>These are not set rules, just common arrangements to help you lay out sites quickly using components and sections.</li>
+        </ul>
+      <h2>Bootstrap</h2>
+        <ul>
+           <li>Start with 2 divs: 1) "container" to put all the elements affected by bootstrap in, and 2) "row" to create a new section in the container.</li>
+           <li>Bootstrap has a grid broken into 12 columns. Using rows and columns, you can position HTML anywhere on the page.</li>
+           <li>Choose how many columns you want each element or section to take up.</li>
+           <li>You can also set default behavior for different device sizes with designations (xs, md, lg, xl).</li>
+           <li>Using different device sizes, you can control the behavior of your website for each device size.</li>
+         </ul> 
+  </body>
+</html>
